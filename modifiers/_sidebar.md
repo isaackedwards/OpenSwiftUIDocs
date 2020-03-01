@@ -1,0 +1,89 @@
+<!-- modifiers/_sidebar.md -->
+
+* [foregroundColor](modifiers/foregroundColor.md)
+* Text
+  * allowsTightening
+  * autocapitalization
+  * font
+  * lineLimit
+  * minimumScaleFactor
+  * multilineTextAlignment
+  * truncationMode
+* Text Input
+  * keyboardType
+  * textContentType
+* View Styles
+  * buttonStyle
+  * listStyle
+  * navigationViewStyle
+  * pickerStyle
+  * textFieldStyle
+* toggleStyle
+* accentColor
+* actionSheet
+* alert
+* allowsHitTesting
+* animation
+* background
+* border
+* clipShape
+* clipped
+* colorSceme
+* compositionGroup
+* contentShape
+* contextMenu
+* cornerRadius
+* disabled
+* disabledAutocorrection
+* drawingGroup
+* edgesIgnoringSafeArea
+* environment
+* environmentObject
+* frame
+* hidden
+* id
+* imageScale
+* itemProvider
+* labelsHidden
+* layoutPriority
+* List
+  * listRowBackground
+  * listRowInsets
+* modifier
+* Navigation Bar
+  * navigationBarBackButtonHidden
+  * navigationBarHidden
+  * navigationBarItems
+  * navigationBarTitle
+* offset
+* Event Handlers
+  * onAppear
+  * onDisappear
+  * onDrag
+  * onDrop
+  * onHover
+* onReceive
+* Gesture
+  * onLongPressGesture
+  * onTapGesture
+  * gesture
+* opacity
+* overlay
+* padding
+* popover
+* position
+* Previews
+  * previewDevice
+  * previewDisplayName
+  * previewLayout
+* rotation3DEffect
+* rotationEffect
+* scaleEffect
+* scaledToFill
+* scaledToFit
+* shadow
+* sheet
+* tabItem
+* tag
+* transformEffect
+* transition
