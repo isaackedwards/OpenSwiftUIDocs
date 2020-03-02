@@ -3,7 +3,7 @@ A control used for adding user interaction to your layout.
 
 ---
 
-> UIKit/AppKit equivalent: `UIButton`/`NSButton`
+> UIKit/AppKit equivalents: `UIButton`/`NSButton`
 > 
 > Available since: iOS 13.0, macOS 10.15, macOS Catalyst 13.0, tvOS 13.0, watchOS 6.0, Xcode 11.0
 
@@ -11,30 +11,31 @@ A control used for adding user interaction to your layout.
 ```swift
 struct Button<Label> where Label : View
 ```
-> Where `Label` is a `View` that is rendered as the button's label.
+> Where `Label` is a `View` that is used as the button's label.
 
 ### Overview
-This is a control that is used to add interaction to your views. This control can be "triggered" or clicked, upon which a callback provided by the programmer will be called.
+This is a control that is used to add interaction to your views and layouts. This control is usually "triggered" or clicked/tapped, upon which a callback provided by you is called, allowing the programmer to respond to the user interaction.
 
 The method of “triggering” the button varies from platform to platform. For example, on iOS, iPadOS and watchOS a button is triggered by tapping it onscreen with the finger, whereas on tvOS it’s triggered by pressing “select” on an external remote while the button is focused. On macOS the button is triggered by left-clicking on it with a mouse.
 
 ##### Styling
 
-The `Button` has built in support for custom styling through its `ButtonStyle` and `PrimitiveButtonStyle` protocols. Once you have defined a type that conforms to one of these protocols, you can use an instance of your type as an argument to the `buttonStyle` modifier to apply that style to buttons in the branch of the layout.
+`Button`s have built-in support for custom styling through their `ButtonStyle` and `PrimitiveButtonStyle` protocols. Once you have defined a type that conforms to one of these protocols, you can use an instance of your type as an argument to the `buttonStyle` modifier to apply that style to buttons in that branch of your layout.
 
 ### Usage
-Simple button with a Text label that says "Click Me!". Prints "Hello World" to the console when clicked.
+Here's an example of a simple button with a Text label that says `"Click Me!"`. The button will print the text `"Hello World"` to the output console when triggered.
 ```swift
 Button("Click Me!") {
     print("Hello World")
 }
 ```
 
-Here's a more complicated example of a button, which renders a custom label, by placing an `Image` and a `Text` in a `VStack`.
+Here's a more complicated example of a button, which renders a custom label, by placing an `Image` and a `Text` in a `VStack`. This one will toggle a boolean `editing` property when it is triggered.
 ```swift
 // A more complicated example of a button.
 Button(action: {
-    print("Hello World")
+    // Example purposes.
+    self.editing.toggle()
 }) {
     VStack {
         Image(systemName: "pencil")
@@ -49,10 +50,11 @@ Button(action: {
 .imageScale(.large)
 ```
 
-Note that it is also possible to link a button an existing function. This allows you to take your logic away from your view code as shown below.
+Note that it is also possible to link a button's action to a function instead of providing a callback. This allows you to take your buisness logic away from your view code as demonstrated below.
 ```swift
 // A View's body property
 var body: some View {
+    // Instead of a callback, we provide a function name
     Button("Login", action: login)
 }
 
@@ -174,7 +176,7 @@ Button(action: {
 ```swift
 init(_ configuration: PrimitiveButtonStyleConfiguration)
 ```
-> _Where `PrimitiveButtonStyleConfiguration.Label` is a `View`. 
+> _Where `PrimitiveButtonStyleConfiguration.Label` is a `View`._
 
 Creates a button with the given configuration. Most of the time you will only need to use this initializer when defining a custom `PrimitiveButtonStyle`.
 

@@ -1,89 +1,95 @@
 <!-- modifiers/_sidebar.md -->
 
 * [foregroundColor](modifiers/foregroundColor.md)
-* Text
-  * allowsTightening
-  * autocapitalization
-  * font
-  * lineLimit
-  * minimumScaleFactor
-  * multilineTextAlignment
-  * truncationMode
-* Text Input
-  * keyboardType
-  * textContentType
-* View Styles
-  * buttonStyle
-  * listStyle
-  * navigationViewStyle
-  * pickerStyle
-  * textFieldStyle
-* toggleStyle
-* accentColor
-* actionSheet
-* alert
-* allowsHitTesting
-* animation
-* background
-* border
-* clipShape
-* clipped
-* colorSceme
-* compositionGroup
-* contentShape
-* contextMenu
-* cornerRadius
-* disabled
-* disabledAutocorrection
-* drawingGroup
-* edgesIgnoringSafeArea
-* environment
-* environmentObject
-* frame
-* hidden
-* id
-* imageScale
-* itemProvider
-* labelsHidden
-* layoutPriority
-* List
-  * listRowBackground
-  * listRowInsets
-* modifier
-* Navigation Bar
-  * navigationBarBackButtonHidden
-  * navigationBarHidden
-  * navigationBarItems
-  * navigationBarTitle
-* offset
-* Event Handlers
-  * onAppear
-  * onDisappear
-  * onDrag
-  * onDrop
-  * onHover
-* onReceive
-* Gesture
-  * onLongPressGesture
-  * onTapGesture
-  * gesture
-* opacity
-* overlay
-* padding
-* popover
-* position
-* Previews
-  * previewDevice
-  * previewDisplayName
-  * previewLayout
-* rotation3DEffect
-* rotationEffect
-* scaleEffect
-* scaledToFill
-* scaledToFit
-* shadow
-* sheet
-* tabItem
-* tag
-* transformEffect
-* transition
+* Position
+  * [padding (In Progress)](modifiers/padding.md)
+* **Coming Soon!**
+  * Text
+    * allowsTightening
+    * autocapitalization
+    * disabledAutocorrection
+    * font
+    * lineLimit
+    * minimumScaleFactor
+    * multilineTextAlignment
+    * truncationMode
+  * Image
+    * imageScale
+  * Text Input
+    * keyboardType
+    * textContentType
+  * View Styles
+    * buttonStyle
+    * listStyle
+    * navigationViewStyle
+    * pickerStyle
+    * textFieldStyle
+    * toggleStyle
+  * Position
+    * offset
+    * position
+  * Size
+    * edgesIgnoringSafeArea
+    * frame
+    * layoutPriority
+  * Animation
+    * animation
+    * transition
+  * clipShape
+  * clipped
+  * accentColor
+  * actionSheet
+  * alert
+  * allowsHitTesting
+  * background
+  * border
+  * colorSceme
+  * compositionGroup
+  * contentShape
+  * contextMenu
+  * cornerRadius
+  * disabled
+  * drawingGroup
+  * environment
+  * environmentObject
+  * hidden
+  * id
+  * itemProvider
+  * labelsHidden
+  * List
+    * listRowBackground
+    * listRowInsets
+  * modifier
+  * Navigation Bar
+    * navigationBarBackButtonHidden
+    * navigationBarHidden
+    * navigationBarItems
+    * navigationBarTitle
+  * Event Handlers
+    * onAppear
+    * onDisappear
+    * onDrag
+    * onDrop
+    * onHover
+    * onReceive
+  * Gesture
+    * onLongPressGesture
+    * onTapGesture
+    * gesture
+  * opacity
+  * overlay
+  * popover
+  * Previews
+    * previewDevice
+    * previewDisplayName
+    * previewLayout
+  * rotation3DEffect
+  * rotationEffect
+  * scaleEffect
+  * scaledToFill
+  * scaledToFit
+  * shadow
+  * sheet
+  * tabItem
+  * tag
+  * transformEffect
