@@ -1,4 +1,5 @@
 <!-- _sidebar_.md -->
 
-* [Views](/views/)
-* [View Modifiers](/modifiers/)
+* [Goals](/goals.md)
+* [Contributing](/CONTIBUTING.md)
+* [About](/about.md)
