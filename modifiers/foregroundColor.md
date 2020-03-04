@@ -7,7 +7,7 @@ A modifier that controls the foreground color of the view that it is applied on.
 >
 > Available since: iOS 13.0, macOS 10.15, macOS Catalyst 13.0, tvOS 13.0, watchOS 6.0, Xcode 11.0
 
-**Tags:** `Cascading`, `Non-Stacking` _[What does this mean?](/modifiers/README.md#tags)_
+**Tags:** `Cascading`, `Rendered` _[What does this mean?](/modifiers/README.md#tags)_
 
 ### Declarations
 ```swift

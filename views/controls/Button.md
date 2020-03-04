@@ -69,21 +69,21 @@ func login() { ... }
 #### ** Simple **
 This is a rendering of how the first example from the above code samples looks on iOS/iPadOS/MacOs Catalyst.
 
-![Figure 1. Simple iOS Button Example Image](../../res/images/demos/button/button-ios-simple.png)
+![Figure 1. Simple iOS Button Example Image](../../images/views/button/button-ios-simple.png)
 
 *Figure 1*
 
 #### ** Complex **
 This is a rendering of how the second example from the above code samples looks on iOS/iPadOS/MacOs Catalyst.
 
-![Figure 2. Complex iOS Button Example Image](../../res/images/demos/button/button-ios-complex.png)
+![Figure 2. Complex iOS Button Example Image](../../images/views/button/button-ios-complex.png)
 
 *Figure 2*
 
 #### ** Form **
 This is a rendering of how a button looks when placed inside a `Form` element on iOS/iPadOS/MacOs Catalyst.
 
-<img src="../../res/images/demos/button/button-ios-form.png" alt="Figure 3. An iOS Button in a Form Example Image" height="500" style="height:500px;" />
+<img src="../../images/views/button/button-ios-form.png" alt="Figure 3. An iOS Button in a Form Example Image" height="500" style="height:500px;" />
 
 *Figure 3*
 

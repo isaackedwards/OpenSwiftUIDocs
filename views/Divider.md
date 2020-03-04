@@ -32,7 +32,7 @@ VStack {
 ### Visuals
 A divider usually always renders the same way on all platforms. An example image is shown below.
 
-![An example divider](/../res/images/demos/divider/divider-simple.png)
+![An example divider](/../images/views/divider/divider-simple.png)
 
 ## Topics
 
