@@ -2,21 +2,21 @@
 
 * Styling
   * [background](modifiers/docs_coming_soon.md)
-  * [foregroundColor](modifiers/foregroundColor.md)
+  * [foregroundColor](modifiers/styling/foregroundColor.md)
 * Position
   * [offset](modifiers/docs_coming_soon.md)
   * [position](modifiers/docs_coming_soon.md)
 * Size
-  * [padding (In Progress)](modifiers/padding.md)
-* Text
-  * [font](modifiers/font.md)
-  * [multilineTextAlignment](modifiers/docs_coming_soon.md)
+  * [padding](modifiers/size/padding.md)
+* Text & Image
+  * [font](modifiers/text_image/font.md)
+  * [multilineTextAlignment](modifiers/text_image/multilineTextAlignment.md)
   * [textContentType](modifiers/docs_coming_soon.md)
   * [truncationMode](modifiers/docs_coming_soon.md)
 * View Styles
   * [textFieldStyle](modifiers/docs_coming_soon.md)
 * Clipping
-    * [clipShape](modifiers/docs_coming_soon.md)
+  * [clipShape](modifiers/docs_coming_soon.md)
 * Layering
   * [overlay](modifiers/docs_coming_soon.md)
 * Graphical Effects
@@ -42,7 +42,7 @@
   * scaleEffect
   * scaledToFill
   * scaledToFit
-* Text
+* Text & Image
   * allowsTightening
   * autocapitalization
   * disabledAutocorrection
@@ -51,6 +51,7 @@
   * lineLimit
   * lineSpacing
   * minimumScaleFactor
+  * imageScale
 * Animation
   * animation
   * transition
@@ -109,7 +110,6 @@
   * modifier
   * tabItem
   * statusBar
-  * imageScale
 * Drag & Drop
   * onDrag
   * onDrop

@@ -8,13 +8,18 @@ A modifier that adds padding around the view that it is applied on
 **Tags:** `Stacking`, `Rendered` _[What does this mean?](/modifiers/README.md#tags)_
 
 ### Declarations
+
+<!-- tabs:start -->
+
+#### **With Length**
+
 ```swift
 func padding(_ length: CGFloat) -> some View
 ```
 ###### Arguments
 1. `length: CGFloat` - The length of the padding to add to each side of the view.
 
----
+#### **With Edge Insets**
 
 ```swift
 func padding(_ insets: EdgeInsets) -> some View
@@ -22,7 +27,7 @@ func padding(_ insets: EdgeInsets) -> some View
 ###### Arguments
 1. `insets: EdgeInsets` - The `EdgeInsets` object that specifies how much padding to add to each side of the view.
 
----
+#### **With Length per Edge Set**
 
 ```swift
 func padding(_ edges: Edge.Set = .all, _ length: CGFloat? = nil) -> some View
@@ -30,6 +35,8 @@ func padding(_ edges: Edge.Set = .all, _ length: CGFloat? = nil) -> some View
 ###### Arguments
 1. `edges: Edge.set = .all` - The edges that should be padded.
 2. `length: CGFloat? = nil` - The length of the padding to apply to that side. If no value or a value of `nil` is provided then a system default length is used.
+
+<!-- tabs:end -->
 
 ### Overview
 The `.padding` modifier is used to add insets to a view. The kind of padding that should be added is specified by you, and SwiftUI provides two ways for you to do so.
@@ -81,4 +88,11 @@ Text("Hello World!")
 ### Visuals
 Here's an example depicting the difference in views' frames with and without padding. The red border highlights the views' borders.
 
-![Example of a view with and without a padding modifier](/../images/modifiers/padding/padding-example.png)
+![Example of a view with and without a padding modifier](/../../images/modifiers/padding/padding-example.png)
+
+### Further Reading
+
+###### Official Documentation
+- [Padding with Length](https://developer.apple.com/documentation/swiftui/view/3278626-padding)
+- [Padding with Edge Insets](https://developer.apple.com/documentation/swiftui/image/3269708-padding)
+- [Padding with Length per Edge](https://developer.apple.com/documentation/swiftui/view/3278628-padding)

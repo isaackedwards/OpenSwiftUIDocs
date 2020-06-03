@@ -1,6 +1,6 @@
 <!-- _navbar.md -->
 
 * [Home](/README.md)
-* [Views](/views/)
+* [Views & Constructs](/views/)
 * [View Modifiers](/modifiers/)
 * [Data](/data/)

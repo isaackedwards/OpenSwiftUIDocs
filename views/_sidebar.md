@@ -1,12 +1,13 @@
 <!-- views/_sidebar.md -->
 
-* Containers
-  * [HStack](views/docs_coming_soon.md)
+* Layout Containers
+  * [HStack](views/containers/HStack.md)
   * [VStack](views/docs_coming_soon.md)
   * [ZStack](views/docs_coming_soon.md)
   * [Group](views/docs_coming_soon.md)
 * Controls
   * [Button](views/controls/Button.md)
+* Data Input
   * [TextField](views/docs_coming_soon.md)
 * Shapes
   * [Circle](views/docs_coming_soon.md)
@@ -22,66 +23,92 @@
 
 * ---
 * **Coming Soon!**
-* View
-* Containers
-  * ForEach
-  * Form
-  * GroupBox
-  * List
-  * NavigationView
-  * TabView
-  * HSplitView
-  * VSplitView
-  * ScrollView
-  * Section
-  * TabView
-* Controls
-  * DatePicker
-  * NavigationLink
-  * Picker
-  * SecureField
-  * Slider
-  * Stepper
-  * Toggle
-  * MenuButton
-  * EditButton
-  * PasteButton
-* Shapes
-  * Shape
-  * InsettableShape
-  * RoundedRectangle
-  * Capsule
-  * Ellipse
-  * Path
-  * ScaledShape
-  * RotatedShape
-  * OffsetShape
-  * TransformedShape
-* Colors
-  * ImagePaint
-  * LinearGradient
-  * AngularGradient
-  * RadialGradient
-* AppKit Integration
-  * NSHostingController
-  * NSHostingView
-  * NSViewControllerRepresentable
-  * NSViewRepresentable
-* UIKit Integration
-  * UIHostingController
-  * UIViewControllerRepresentable
-  * UIViewRepresentable
-* WatchKit Integration
-  * WKHostingController
-  * WKUserNotificationHostingController
-  * WKInterfaceObjectRepresentable
-  * DigitalCrownRotationalSensitivity
-* ActionSheet
-* Alert
-* ActionSheet
-* AnyView
-* EmptyView
-* Technicals
-  * EquatableView
-  * TupleView
-  * DynamicViewContent
+* **Views**
+  * View
+  * Controls
+    * NavigationLink
+    * MenuButton
+    * EditButton
+    * PasteButton
+  * Data Input
+    * DatePicker
+    * Picker
+    * SecureField
+    * Slider
+    * Stepper
+    * Toggle
+  * Layout Containers
+    * Section
+    * ForEach
+    * Form
+    * List
+    * ScrollView
+    * GroupBox
+    * NavigationView
+    * TabView
+    * HSplitView
+    * VSplitView
+  * Shapes
+    * Shape
+    * Path
+    * InsettableShape
+    * RoundedRectangle
+    * Capsule
+    * Ellipse
+    * ScaledShape
+    * RotatedShape
+    * OffsetShape
+    * TransformedShape
+  * Shape Styles
+    * ImagePaint
+    * LinearGradient
+    * AngularGradient
+    * RadialGradient
+    * SeparatorShapeStyle
+  * System Views
+    * ActionSheet
+    * Alert
+  * AppKit Integration
+    * NSHostingController
+    * NSHostingView
+    * NSViewControllerRepresentable
+    * NSViewRepresentable
+  * UIKit Integration
+    * UIHostingController
+    * UIViewControllerRepresentable
+    * UIViewRepresentable
+  * WatchKit Integration
+    * WKHostingController
+    * WKUserNotificationHostingController
+    * WKInterfaceObjectRepresentable
+    * DigitalCrownRotationalSensitivity
+  * Technicals
+    * AnyView
+    * EmptyView
+    * EquatableView
+    * TupleView
+    * DynamicViewContent
+* ---
+* **Other Objects**
+* Text
+  * Font
+    * Design
+    * Weight
+    * TextStyle
+    * ContentSizeCategory
+  * TruncationMode
+  * TextAlignment
+  * UITextAutocapitalizationType
+  * UIKeyboardType
+  * UITextContentType
+  * WKTextContentType
+* Alignment
+  * AlignmentID
+  * HorizontalAlignment
+  * VerticalAlignment
+* Animations
+    * Animatable
+    * AnimatableModifier
+    * AnimatablePair
+    * EmptyAnimatableData
+    * AnyTransition
