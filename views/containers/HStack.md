@@ -7,7 +7,7 @@ A view used for arranging your content in a horizontal line.
 >
 > Available since: iOS 13.0, macOS 10.15, macOS Catalyst 13.0, tvOS 13.0, watchOS 6.0, Xcode 11.0
 
-### Declarations
+### Declaration
 ```swift
 @frozen struct HStack<Content> where Content : View
 ```
